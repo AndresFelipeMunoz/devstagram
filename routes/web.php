@@ -18,7 +18,7 @@ Route::get('/login', [LoginController::class, 'index'])->name('login');
 Route::post('/login', [LoginController::class, 'store'])->name('login');
 Route::post('/logout', [LogoutController::class, 'store'])->name('logout');
 
-Route::get('/muro', [PostController::class, 'index'])->name('post.index')->middleware('auth');
+Route::get('/{user:username}', [PostController::class, 'index'])->name('post.index')->middleware('auth');
 
 
 
