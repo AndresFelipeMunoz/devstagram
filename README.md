@@ -64,3 +64,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+Devstagram es una aplicación web inspirada en Instagram, desarrollada con Laravel. Permite a los usuarios registrarse, iniciar sesión, publicar imágenes, dar "me gusta" y explorar contenido publicado por otros usuarios. Este proyecto está enfocado en reforzar conceptos como autenticación, relaciones entre modelos, subida de archivos, y uso de Blade como motor de plantillas.
+
+Tecnologías principales
+PHP con Laravel
+
+Blade Templates
+
+Tailwind CSS
+
+MySQL
+
+Características destacadas
+Registro y login de usuarios con validaciones.
+
+Publicación de imágenes con título y descripción.
+
+Likes en publicaciones.
+
+Perfil de usuario con sus posts.
+
+Diseño responsive con Tailwind CSS.
